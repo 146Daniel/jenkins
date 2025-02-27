@@ -1,4 +1,4 @@
-'''
+
 ##TARGIL 4 - CHECK FOR NEGATIVE NUMBER
 number = int(input("Enter a number: "))
 number2 = int(input("Enter a number: "))
@@ -70,7 +70,7 @@ movies_list.append(input("the second the movie: "))
 movies_list.append(input("the third the movie: "))
 for i in movies_list:
     print(f"your favorites movie is {i}")
-'''
+
 #TARGIL 14 - SUM USER INPUT
 def sum_numbers(numbers): #why the fuck i need numbers in this function???
     return sum(numbers)
