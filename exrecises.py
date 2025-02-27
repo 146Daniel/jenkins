@@ -6,6 +6,7 @@ print(fruit)
 fruit.remove("5")
 print(fruit)
 '''''
+'''''
 
 car_brand_dict = {
     'toyota': ["camry", "avalon", "tacoma", "sequoia"],
@@ -29,3 +30,9 @@ print(model_exists("Mercedes", "eqs"))
 print(model_exists("Mercedes", "eQs"))
 print(model_exists("Mercedes", "eQx"))
 
+'''''
+
+'''''
+x = str.lower(input("Enter a text: "))
+print(x)
+'''''
