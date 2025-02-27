@@ -1,4 +1,4 @@
-
+'''
 ##TARGIL 4 - CHECK FOR NEGATIVE NUMBER
 number = int(input("Enter a number: "))
 number2 = int(input("Enter a number: "))
@@ -40,3 +40,46 @@ print(f"Number of 20 notes: {int(amout_of_cash % 200 % 100 % 50 / 20)}")
 print(f"Number of 10 coins: {int(amout_of_cash % 200 % 100 % 50 % 20 / 10)}")
 print(f"Number of 5 coins: {int(amout_of_cash % 200 % 100 % 50 % 20 % 10 / 5)}")
 print(f"Number of 1 coins: {int(amout_of_cash % 200 % 100 % 50 % 20 % 10 % 5 / 1)}")
+
+
+#TARGIL 10 - COUNTDOWN
+number = int(input("Enter a number: "))
+for i in range(number, -1, -1):
+    print(i)
+
+
+#TARGIL 11 - FIBONACCI SERIES
+a, b = 0, 1
+for i in range(10):
+    print(a)
+    a, b = b, a + b
+
+#TARGIL 12 -  CHECK LIST
+fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'melon', 'mango']
+user_input = input("Enter a fruit: ")
+if user_input in fruits:
+    print("you like the same fruits as me")
+else:
+    print("you don't like the same fruits as me")
+
+
+#TARGIL 13 -  ADD ITEMS TO A LIST
+movies_list = []
+movies_list.append(input("the first the movie: "))
+movies_list.append(input("the second the movie: "))
+movies_list.append(input("the third the movie: "))
+for i in movies_list:
+    print(f"your favorites movie is {i}")
+'''
+#TARGIL 14 - SUM USER INPUT
+def sum_numbers(numbers): #why the fuck i need numbers in this function???
+    return sum(numbers)
+
+user_numbers = []
+
+for i in range(5):
+    number = int(input(f"Enter number #{i+1}: "))
+    user_numbers.append(number)
+
+result = sum_numbers(user_numbers)
+print(f"The sum of your numbers is: {result}.")
